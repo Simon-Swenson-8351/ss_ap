@@ -34,3 +34,8 @@ enum ss_ap_err ss_ap_natural_divide(struct ss_ap_natural *numerator, struct ss_a
 
     return SAE_NO_ERR;
 }
+
+enum ss_ap_err ss_ap_natural_compare(struct ss_ap_natural *in1, struct ss_ap_natural *in2, int *result) {
+
+    return SAE_NO_ERR;
+}
